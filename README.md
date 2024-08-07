@@ -5,7 +5,6 @@ website
 TODOS:
 - header
     - some styling issues
-    - "our movement" drop down
 - home page
     - find a new page to link to (defense campaign?)
     - background picture to encampment
@@ -25,16 +24,9 @@ TODOS:
     - more political framing before the endowment guide
         - take from the more political aspects of
             the endowment guide
-- dda page
-    - remove from navigation for now?
-- encampment page
-    - remove from navigation
-- get involved
+- contact
     - individuals getting involved is old
-    - rename to contact
     - background image?
-- statement page
-    - title, date, first few sentences?
 - drop the charges
     - ask legal defense campaign
 - press page
