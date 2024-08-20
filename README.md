@@ -18,7 +18,7 @@ categories: statements
 3. write the text of the post, using [markdown syntax](https://www.markdownguide.org/basic-syntax/); 
     images should be placed in `/assets/img` and linked as such;
     keep in mind that the first paragraph will be displayed as an excerpt
-    on the statements page, so cut off the first paragraph is necessary.
+    on the statements page, so split the first paragraph if necessary.
 
 
 Keep masthead images up to date
@@ -44,7 +44,7 @@ Shubh will add info about
 - testing locally
 - pushing and deploying
 
-Shubh will add additional resources about
+Shubh will link to additional resources about
 - jekyll
 - html/css
 - markdown
