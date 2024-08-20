@@ -29,7 +29,8 @@ Keep masthead images up to date
 Keep home page button up to date with an appropriate ask
 1. on `index.html`, edit the `href` attribute of the
     `header > div > div > div > div > a` element and
-    change the text
+    change the text; be sure to add `https://` to link
+    to an external page
 2. if necessary, copy-paste/delete additional `a` elements
     to add additional buttons; buttons will automatically
     be aligned in a row
@@ -56,10 +57,7 @@ Shubh will link to additional resources about
 
 ### Content changes
 - home page
-    - link to anti-repression open letter
     - change masthead image to encampment
-    - add more information about how we fight towards divestment (theory of change)
-        - most significant material action in liberation of Palestine
     - some other thing to put as the big text on the image?
 - about page
     - change masthead image (numbers super outdated)
