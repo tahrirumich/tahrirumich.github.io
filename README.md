@@ -55,20 +55,18 @@ Shubh will link to additional resources about
 
 ## TODOs
 
-### Content changes
-- home page
-    - change masthead image to encampment
-    - some other thing to put as the big text on the image?
-- about page
-    - change masthead image (numbers super outdated)
-    - possibly changes to the about paragraphs -- bigger convo
-        - last paragraph is good
-- why divest? page
-    - more political framing before the endowment guide
-        - take from the more political aspects of
-            the endowment guide
-- contact
-    - include form for tahrir solidarity network or smth
+### Immediate content changes
+- home page: change masthead image to encampment
+- home page: some other thing to put as the big text on the image?
+- about page: change masthead image (numbers super outdated)
+- why divest? page: more political framing before the endowment guide;
+    take from the more political aspects of the endowment guide
+- statements: add additional missing statements
+
+
+### Content changes requiring coalition discussion
+- about page: change paragraphs to reflect current reality of TAHRIR
+- contact: include way for people to plug in to our work
 
 
 ### Possible additions
