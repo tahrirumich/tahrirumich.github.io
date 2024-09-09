@@ -8,9 +8,24 @@
         <!-- Twitter Card Info -->
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@TAHRIRumich"/>
+        {% if page.title %}
+        <meta name="twitter:title" content="{{page.title}}"/>
+        {% else %}
         <meta name="twitter:title" content="TAHRIR Coalition at the University of Michigan"/>
+        {% endif %}
+
+        {% if page.subtitle %}
+        <meta name="twitter:description" content="{{page.subtitle}}"/>
+        {% else %}
         <meta name="twitter:description" content="A student-led movement fighting for divestment from Israel and the war machine"/>
+        {% endif %}
+
+        {% if page.image %}
+        <meta name="twitter:description" content="{{page.image}}"/>
+        {% else %}
         <meta name="twitter:image" content="https://tahrirumich.org/assets/img/about-header-2.jpg" />
+        {% endif %}
+
         <title>TAHRIR Coalition at the University of Michigan</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
