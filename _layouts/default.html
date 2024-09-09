@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="TAHRIR is a student-led movement advocating for divestment from and boycott of settler colonialism, occupation, mass incarceration, apartheid, and genocide, in Palestine and beyond, as well as for redirecting of university funds towards the welfare of the student community and empowering its cause towards collective liberation." />
         <meta name="author" content="TAHRIR Coalition" />
         <!-- Twitter Card Info -->
         <meta name="twitter:card" content="summary_large_image"/>
@@ -16,8 +15,10 @@
 
         {% if page.subtitle %}
         <meta name="twitter:description" content="{{page.subtitle}}"/>
+        <meta name="description" content="{{page.subtitle}}" />
         {% else %}
         <meta name="twitter:description" content="A student-led movement fighting for divestment from Israel and the war machine"/>
+        <meta name="description" content="TAHRIR is a student-led movement advocating for divestment from and boycott of settler colonialism, occupation, mass incarceration, apartheid, and genocide, in Palestine and beyond, as well as for redirecting of university funds towards the welfare of the student community and empowering its cause towards collective liberation." />
         {% endif %}
 
         {% if page.image %}
