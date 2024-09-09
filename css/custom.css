@@ -1,0 +1,17 @@
+#bootstrap-override h1 {
+    font-size: 3rem;
+}
+#bootstrap-override h2 {
+    font-size: 2.5rem;
+}
+#bootstrap-override h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: var(--bs-font-serif);
+}
+
+
+/* Sorry I couldn't resist here */
+#bootstrap-override .masthead {
+    padding: 0; 
+}

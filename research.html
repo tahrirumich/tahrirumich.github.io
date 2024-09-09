@@ -17,13 +17,18 @@ layout: default
 <article class="mb-4">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <div class="col-md-10 col-lg-8 col-xl-7">
-        {% for post in site.research %}
+      <div class="col-md-10 col-lg-8 col-xl-9">
+        {% assign posts = site.research | sort: 'date' | reverse %}
+        {% for post in posts %}
             <h2>
-              <a href="{{ site.url}}{{ post.url }}"> {{post.title}} </a>
+              <a href="{{ post.url }}"> {{post.title}} </a>
             </h2>
-            <em>{{post.date}}</em>
-            <p> {{post.content | strip_html | truncatewords: 50 }} </p>
+            {% if post.subtitle %}
+              <h3>{{post.subtitle}}</h3>
+            {% endif %}
+            <em>{{post.date | date: "%B %-d, %Y" }}</em>
+            <br />
+            <p> {{post.content | strip_html | truncatewords: 100 }} </p>
         {% endfor %}
       </div>
     </div>
