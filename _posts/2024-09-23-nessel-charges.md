@@ -4,10 +4,10 @@ title:      "Statement on Michigan Attorney General Charges against 11 Pro-Pales
 date:       2024-09-13
 categories: statements
 ---
-*State Attorney Dana Nessel has announced
+**State Attorney Dana Nessel has announced
 felony and misdemeanor charges against eleven pro-Palestine protestors under pressure
 from the University of Michigan’s police department (UMPD) for participating in the Gaza
-Solidarity Encampment.* These charges bypass local Prosecutor Eli Savit in an effort to secure
+Solidarity Encampment.** These charges bypass local Prosecutor Eli Savit in an effort to secure
 harsher criminal penalties following previous felony charges, ongoing academic disciplinary
 actions, and hiring bans. In collaboration with the State of Michigan, this represents the Regents
 concerted effort to weaponize the criminal justice system to stifle the pro-Palestine movement
