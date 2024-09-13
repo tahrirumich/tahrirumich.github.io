@@ -37,4 +37,7 @@ and intimidation against students, University workers, and community members. We
 cower to carceral intimidation and will remain resolute in our commitment to the struggle for
 Palestinian liberation, demanding divestment from weapons manufacturers and surveillance
 technology to end the University’s complicity in genocide.
+
 A press conference will be announced in coming days.
+
+Donate to the fundraiser for our comrades here: [https://chuffed.org/project/um-palestine-legalfund](https://chuffed.org/project/um-palestine-legalfund).
