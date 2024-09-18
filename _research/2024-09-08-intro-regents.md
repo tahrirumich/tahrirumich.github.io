@@ -53,8 +53,8 @@ African apartheid regime and activist demands to divest since the Black
 Action Movement of 1975 ("BAM II"), the Regents were reluctant to
 divest. They attempted to appeal these demands through a resolution on
 March 16, 1978 that simply asked corporations to adhere to the
-[["Sullivan
-Principles"]](https://michiganintheworld.history.lsa.umich.edu/antiapartheid/exhibits/show/exhibit/origins/sullivan-principles)
+["Sullivan
+Principles"](https://michiganintheworld.history.lsa.umich.edu/antiapartheid/exhibits/show/exhibit/origins/sullivan-principles)
 of ethical and sustainable business practices. Rather than move their
 money away from corporations complicit in the apartheid regime, the
 Regents instead adopted a non-binding resolution to ask corporations
@@ -67,8 +67,8 @@ next several years to push the University to divest. To students,
 adoption of the Principles was counterproductive and a liberal
 distraction; even the apartheid South African government approved of
 them. U-M students were not alone, as anti-apartheid activism swept the
-United States. [[Led by Ann Arbor State Rep. Perry
-Bullard]](https://michiganintheworld.history.lsa.umich.edu/antiapartheid/exhibits/show/exhibit/expansion-and-resistance--1980/early_bills),
+United States. [Led by Ann Arbor State Rep. Perry
+Bullard](https://michiganintheworld.history.lsa.umich.edu/antiapartheid/exhibits/show/exhibit/expansion-and-resistance--1980/early_bills),
 the Michigan Legislature passed Public Act 512 into law on December
 31st, 1982. Public Act 512, the first act of its kind in the United
 States, compelled all public universities in the State of Michigan to
@@ -112,7 +112,7 @@ divestment is impossible and goes against standard practice, but this
 ignores the several instances of divestment the University has taken
 since 1983. In 2000, President Lee Bollinger created an ad-hoc committee
 and commissioned them with writing a
-[[report]](https://publicaffairs.vpcomm.umich.edu/wp-content/uploads/sites/19/2015/01/Mar2000.AdHocAdvisoryCommitteeonTobaccaInvestments.pdf)
+[report](https://publicaffairs.vpcomm.umich.edu/wp-content/uploads/sites/19/2015/01/Mar2000.AdHocAdvisoryCommitteeonTobaccaInvestments.pdf)
 on divestment from the tobacco industry, and the University divested
 from the industry in the same year.[^3] Five years later, when
 commenting on divestment from tobacco, then-Vice President Slottow noted
@@ -122,12 +122,12 @@ or in other ways expressed the view that the University\'s ownership of
 tobacco stocks was of widespread concern."
 
 The Faculty Senate passed a
-[[resolution]](https://facultysenate.umich.edu/senate-assembly-divestment-resolution/)
+[resolution](https://facultysenate.umich.edu/senate-assembly-divestment-resolution/)
 in January of this year to compel the University to divest from Israel,
 and the Central Student Government passed divestment resolutions in
-[[2017]](https://www.mlive.com/news/ann-arbor/2017/11/um_student_government_passes_r.html)
+[2017](https://www.mlive.com/news/ann-arbor/2017/11/um_student_government_passes_r.html)
 as well as in
-[[2024]](https://docs.google.com/document/d/1mNuKE2hP7U7M6gTkWqWvsEihi21uZYujhpbl6N8fRUI/edit).[^4]
+[2024](https://docs.google.com/document/d/1mNuKE2hP7U7M6gTkWqWvsEihi21uZYujhpbl6N8fRUI/edit).[^4]
 The Shut It Down slate of candidates that ran on a pro-Palestine
 platform won many of their elections including the positions of
 President and Vice President, and of course the TAHRIR Coalition is
@@ -139,20 +139,20 @@ they did in 2000.
 
 The Regents would contradict their policy to "shield the endowment from
 political pressures" two more times after the process to divest from
-tobacco, once in 2021 [[to
-divest]](https://www.michigandaily.com/news/administration/regents-disinvest-from-holdings-related-to-fossil-fuels-commit-to-net-zero-endowment-by-2050-and-invest-140-million-into-renewable-energy/)
-from the fossil fuel industry and most recently [[in
-2022]](https://www.michigandaily.com/news/administration/university-divests-from-russian-investments-following-invasion-of-ukraine/)
+tobacco, once in 2021 [to
+divest](https://www.michigandaily.com/news/administration/regents-disinvest-from-holdings-related-to-fossil-fuels-commit-to-net-zero-endowment-by-2050-and-invest-140-million-into-renewable-energy/)
+from the fossil fuel industry and most recently [in
+2022](https://www.michigandaily.com/news/administration/university-divests-from-russian-investments-following-invasion-of-ukraine/)
 to divest from Russia. In the recent "Endowment 101" post, the
 administration
-[[argued]](https://record.umich.edu/articles/endowment-101-facts-about-u-ms-17-9b-endowment/)
+[argued](https://record.umich.edu/articles/endowment-101-facts-about-u-ms-17-9b-endowment/)
 that "\[n\]either was a divestment, which is defined as a decision to
 dispose of and fully exit investments for political or non-financial
 reasons. Instead, these decisions were made for financial reasons and to
 protect the value of the endowment." Of course, this insistence is a
-lie; the Regents announced their intent to divest from Russia [[at the
+lie; the Regents announced their intent to divest from Russia [at the
 same
-time]](https://record.umich.edu/articles/u-m-to-exit-russian-investment-light-bell-tower-with-ukrainian-colors/)
+time](https://record.umich.edu/articles/u-m-to-exit-russian-investment-light-bell-tower-with-ukrainian-colors/)
 that they announced they intended to light Burton Tower in the colors of
 the Ukrainian flag in a show of solidarity, and a week after Interim
 President Mary Sue Coleman condemning the attack on Ukraine as a
@@ -160,11 +160,11 @@ President Mary Sue Coleman condemning the attack on Ukraine as a
 championed as a victory for humanity rather than simply for financial
 profit --- Regent Mark Bernstein argued that given the challenges of
 climate change, "we have to do things differently and that includes the
-way we invest our money;" Regent Jordan Acker would [[address
-students]](https://record.umich.edu/articles/u-m-shifts-strategy-for-natural-resources-investments/)
-about fossil fuel divestment saying that [["your activism matters, your
+way we invest our money;" Regent Jordan Acker would [address
+students](https://record.umich.edu/articles/u-m-shifts-strategy-for-natural-resources-investments/)
+about fossil fuel divestment saying that ["your activism matters, your
 voice matters, your passion matters and, yes, your viewpoint
-matters."]](https://web.archive.org/web/20191206004656/https://twitter.com/JordanAckerMI/status/1202700148414930945)
+matters."](https://web.archive.org/web/20191206004656/https://twitter.com/JordanAckerMI/status/1202700148414930945)
 The Regents insist that they cannot be swayed by "political pressures"
 to avoid standing for human rights, while at other times --- in some
 cases at the same time --- proclaiming their values and how they drive
@@ -172,8 +172,8 @@ investment decisions.
 
 Of course, the main way the Regents blatantly contradict their policy of
 maintaining an endowment free of "political pressures" is by engaging in
-expressly political investments. As we detailed in [[our
-report]](http://bit.ly/UMEndowmentGuide) earlier this year,
+expressly political investments. As we detailed in [our
+report](http://bit.ly/UMEndowmentGuide) earlier this year,
 the University has funded, through investments managers in venture
 capital and private equity, companies producing surveillance tech,
 bombs, unmanned drones, and fighter planes for the Zionist entity. Some, like israeli hacking
@@ -213,6 +213,6 @@ divest.
     Morris, and \$2,521,000 in Altria.
 
 [^4]:
-    The Michigan Student Assembly [[changed their
-name]](https://www.michigandaily.com/uncategorized/michigan-student-assembly-change-its-name-january/)
+    The Michigan Student Assembly [changed their
+    name](https://www.michigandaily.com/uncategorized/michigan-student-assembly-change-its-name-january/)
     to the Central Student Government in 2011.
