@@ -8,14 +8,14 @@
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@TAHRIRumich"/>
         {% if page.title %}
-        <meta name="twitter:title" content="{{page.title}}"/>
+        <meta name="twitter:title" content="{{page.title | strip_html | escape}}"/>
         {% else %}
         <meta name="twitter:title" content="TAHRIR Coalition at the University of Michigan"/>
         {% endif %}
 
         {% if page.subtitle %}
-        <meta name="twitter:description" content="{{page.subtitle}}"/>
-        <meta name="description" content="{{page.subtitle}}" />
+        <meta name="twitter:description" content="{{page.subtitle | strip_html | escape}}"/>
+        <meta name="description" content="{{page.subtitle | strip_html | escape}}" />
         {% else %}
         <meta name="twitter:description" content="A student-led movement fighting for divestment from Israel and the war machine"/>
         <meta name="description" content="TAHRIR is a student-led movement advocating for divestment from and boycott of settler colonialism, occupation, mass incarceration, apartheid, and genocide, in Palestine and beyond, as well as for redirecting of university funds towards the welfare of the student community and empowering its cause towards collective liberation." />
