@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - /research
+  - /research/endowment-guide
 ---
