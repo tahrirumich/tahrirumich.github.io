@@ -1,16 +1,72 @@
 #bootstrap-override h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 #bootstrap-override h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 #bootstrap-override h3 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    font-family: var(--bs-font-serif);
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: var(--bs-font-serif);
 }
 
+#bootstrap-override .masthead {
+  padding-bottom: 6rem;
+}
 
 #bootstrap-override .post-masthead {
-    padding: 8rem 0 0 0; 
+  padding: 8rem 0 0 0;
+}
+
+.custom-carousel-control {
+  background-color: rgba(
+    50,
+    50,
+    50,
+    0.7
+  ); /* Dark grey with transparency */
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(
+    100%
+  ); /* Make the arrows white for contrast */
+}
+
+.carousel-item {
+  padding: 1rem;
+  border: solid black 1px;
+  text-align: left;
+}
+.carousel-item p {
+  margin: 0.5rem 0;
+}
+
+.tweet-button {
+  color: #fff;
+  background: #000;
+  transition: color 100ms;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.tweet-button:hover {
+  color: #7e7e7e;
+}
+
+.tweet-button svg {
+  height: 1rem;
+  width: 1rem;
 }

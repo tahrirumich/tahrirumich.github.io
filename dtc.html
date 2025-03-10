@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="
+    background-image: url('/assets/img/divest_header.jpg');
+  "
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="post-heading">
+          <h1>Drop the Charges!</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article class="mb-4">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-9">
+        <p>
+          <strong
+            >Let’s show Attorney General Dana Nessel that
+            we won’t stand for her suppression of
+            pro-Palestine protest and our First Amendment
+            rights!</strong
+          > In September 2024, Attorney General Dana Nessel
+          announced criminal charges against 11 people,
+          including felony charges against 7, over the UMich
+          Gaza Solidarity Encampment. As the Guardian <a
+            href="https://www.theguardian.com/us-news/2024/oct/24/michigan-attorney-general-dana-nessel-campus-gaza-protests"
+            >reported</a
+          >:
+        </p>
+        <blockquote>
+          <p>
+            Frustrated by local prosecutors’ unwillingness
+            to crack down on most of the students arrested
+            at the height of the pro-Palestinian encampments
+            last spring, the regents executed a highly
+            unusual move in recruiting the Michigan attorney
+            general, Dana Nessel, because she was more
+            likely to file charges, three people with direct
+            knowledge of the decision tell the Guardian.
+          </p>
+        </blockquote>
+        <p>
+          <strong
+            >This is corruption, plain and simple.</strong
+          > The Guardian found tens of thousands of dollars
+          of campaign contributions by the UMich Regents to
+          Dana Nessel’s campaign, among other political
+          connections. Nessel later doubled down by <a
+            href="https://www.michigandaily.com/news/news-briefs/michigan-attorney-general-charges-three-pro-palestine-protesters-for-festifall-die-in/"
+            >bringing additional charges</a
+          > against 3 protestors over a die-in demonstration
+          at UMich’s Festifall event (including felony
+          charges against 2).
+        </p>
+        <p>
+          <strong
+            >Nessel is also attacking the First Amendment
+            rights of everyone in Michigan.</strong
+          > Nessel’s charges against pro-Palestinian
+          protestors appear to be the leading edge of her
+          broader crackdown on political speech. On January
+          6, 2025, Nessel issued “<a
+            href="https://www.michigan.gov/ag/news/press-releases/2025/01/06/ag-nessel-issues-protest-picketing-guidance-to-law-enforcement"
+            >guidance</a
+          >” for local law enforcement on legal ways to
+          suppress First Amendment protected activity.
+        </p>
+        <p>
+          <strong
+            >Send a Tweet to tell Attorney General Dana
+            Nessel and Governor Gretchen Whitmer to drop the
+            charges against the Encampment 11 and Festifall
+            3, and stop their corrupt protection of the
+            UMich Regents and zionist genocide!</strong
+          >
+        </p>
+
+        {% for group in site.data.tweets.tweets %}
+        <h3>Call Nessel out {{ group.category }}:</h3>
+        <div
+          id="tweetCarousel-{{group.category | slugify}}"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+          {% for tweet in group.content %}
+            <div
+              class="carousel-item {% if forloop.first %}active{% endif %}"
+            >
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <p>{{ tweet }}</p>
+                <a
+                  href="https://twitter.com/intent/tweet?text={{ tweet | url_encode }}"
+                  class="tweet-button"
+                  data-show-count="false"
+                  >Post this on
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M17.9686 14.1623L26.7065 4H24.6358L17.0488 12.8238L10.9891 4H4L13.1634 17.3432L4 28H6.07069L14.0827 18.6817L20.4822 28H27.4714L17.9681 14.1623H17.9686ZM15.1326 17.4607L14.2041 16.132L6.81679 5.55961H9.99723L15.9589 14.0919L16.8873 15.4206L24.6368 26.5113H21.4564L15.1326 17.4612V17.4607Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center mb-3"
+          >
+            <button
+              class="custom-carousel-control-prev"
+              type="button"
+              data-bs-target="#tweetCarousel-{{group.category | slugify}}"
+              data-bs-slide="prev"
+            >
+              ‹ Previous
+            </button>
+
+            <button
+              class="custom-carousel-control-next"
+              type="button"
+              data-bs-target="#tweetCarousel-{{group.category | slugify}}"
+              data-bs-slide="next"
+            >
+              Next ›
+            </button>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</article>
