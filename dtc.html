@@ -13,7 +13,7 @@ layout: default
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-md-10 col-lg-8 col-xl-7">
         <div class="post-heading">
-          <h1>Drop the Charges!</h1>
+          <h1>Drop the OSCR Charges!</h1>
         </div>
       </div>
     </div>
@@ -88,22 +88,21 @@ layout: default
             on events for us to talk together and strategize further.
           </p>
           <div class="gap-2 d-flex mx-auto">
-            <a class="btn btn-primary rounded" href="" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 4.3rem; --bs-btn-font-size: 1.0rem;">Send an Email to Drop the Charges</a>
+            <a class="btn btn-primary rounded" href="https://actionnetwork.org/letters/tell-the-university-of-michigan-drop-student-disciplinary-charges" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 4.3rem; --bs-btn-font-size: 1.0rem;">Send an Email to Drop the Charges</a>
             <a class="btn btn-primary rounded" href="https://chuffed.org/project/um-palestine-legalfund" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 6.4rem; --bs-btn-font-size: 1.0rem;">Donate To Our Legal Fund</a>
           </div>
         </div>
         <div class="tab-pane fade" id="tweets-tab-pane" role="tabpanel" aria-labelledby="tweets-tab" tabindex="0">
           <p>
             <strong
-              >Send a Tweet to call out Vice President of Student 
-              Life Marino Harmon on his constant abuse of power
+              >Send a Tweet to call out the complainant Donovan Golich and director Erik Wessel on their constant abuse of power
               to punish students through the Office of Student
               Conflict Resolution!</strong
             >
           </p>
 
           {% for group in site.data.tweets.tweets %}
-          <h3>Call Nessel out {{ group.category }}:</h3>
+          <h3>{{ group.category }}:</h3>
           <div
             id="tweetCarousel-{{group.category | slugify}}"
             class="carousel slide"
