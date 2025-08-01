@@ -29,6 +29,9 @@ layout: default
             <button class="nav-link active" id="campaign-tab" data-bs-toggle="tab" data-bs-target="#campaign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Campaign</button>
           </li>
           <li class="nav-item" role="presentation">
+            <button class="nav-link" id="supporters-tab" data-bs-toggle="tab" data-bs-target="#supporters-tab-pane" type="button" role="tab" aria-controls="supporters-tab-pane" aria-selected="false">Supporters</button>
+          </li>
+          <li class="nav-item" role="presentation">
             <button class="nav-link" id="tweets-tab" data-bs-toggle="tab" data-bs-target="#tweets-tab-pane" type="button" role="tab" aria-controls="tweets-tab-pane" aria-selected="false">Tweets</button>
           </li>
         </ul>
@@ -160,6 +163,21 @@ layout: default
             </div>
           </div>
           {% endfor %}
+        </div>
+        <div class="tab-pane fade" id="supporters-tab-pane" role="tabpanel" aria-labelledby="supporters-tab" tabindex="0">
+          <p>
+            <strong
+              >See the many organizations that condemn the actions of OSCR and stand with the pro-Palestine activists who are being wrongfully sanctioned.</strong
+            >
+          </p>
+          <div class="d-grid gap-2 mx-auto" style="margin-bottom: 1rem;">
+            <button class="d-flex justify-content-between align-items-center btn btn-primary btn-lg" data-bs-toggle="collapse" href="#AAUP" role="button" aria-expanded="false" aria-controls="AAUP">
+              American Association of University Professors <span class="fs-2">▼</span>
+            </button>
+          </div>
+          <div class="collapse multi-collapse" id="AAUP" style="margin-bottom: 1rem;">
+            <object data="\assets\pdf\U-M AAUP Solidarity Statement.pdf" type="application/pdf" width="100%" height="600px"></object>
+          </div>
         </div>
       </div>
     </div>
