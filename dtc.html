@@ -29,6 +29,9 @@ layout: default
             <button class="nav-link active" id="campaign-tab" data-bs-toggle="tab" data-bs-target="#campaign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Campaign</button>
           </li>
           <li class="nav-item" role="presentation">
+            <button class="nav-link" id="supporters-tab" data-bs-toggle="tab" data-bs-target="#supporters-tab-pane" type="button" role="tab" aria-controls="supporters-tab-pane" aria-selected="false">Supporters</button>
+          </li>
+          <li class="nav-item" role="presentation">
             <button class="nav-link" id="tweets-tab" data-bs-toggle="tab" data-bs-target="#tweets-tab-pane" type="button" role="tab" aria-controls="tweets-tab-pane" aria-selected="false">Tweets</button>
           </li>
         </ul>
@@ -66,14 +69,14 @@ layout: default
             rules for amending the student code of conduct, to make it so 
             that guilty verdicts can now be imposed directly. They 
             recently hired disgraced student disciplinary officer Donovan 
-            Golich, who was recorded <a href="https://youtu.be/qqm0FtrTWzY?feature=shared">threatening and swearing</a> 
-            at accused fraternity members and acted as complainant to <a href="https://archive.is/h4aNM#selection-4437.261-4437.272revoke">discipline pro-Palestine student protestors</a> 
+            Golich, who was recorded <a href="https://youtu.be/qqm0FtrTWzY?feature=shared" target="_blank" rel="nofollow noopener noreferrer">threatening and swearing</a> 
+            at accused fraternity members and acted as complainant to <a href="https://archive.is/h4aNM#selection-4437.261-4437.272revoke" target="_blank" rel="nofollow noopener noreferrer">discipline pro-Palestine student protestors</a> 
             in 2024, to act as their "enforcer."
           </p>
           <p>
-            <strong>
-              The Regents have effectively ended due process, allowing 
-              them to sanction any student who stands against them.</strong>
+            <strong
+            >The Regents have effectively ended due process, allowing 
+            them to sanction any student who stands against them.</strong>
             This is why we must turn to you, our community, to empower 
             those undergoing the repression from UM administration.
             You can directly support by donating to the community legal
@@ -86,11 +89,14 @@ layout: default
             Lastly, follow us on social media, and we will provide updates 
             on events for us to talk together and strategize further.
           </p>
-          <div>
-            <a class="btn btn-primary rounded" href="https://actionnetwork.org/letters/tell-the-university-of-michigan-drop-student-disciplinary-charges" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 4.3rem; --bs-btn-font-size: 1.0rem; margin-top: 1rem;">Send an Email to Drop the Charges</a>
-            <a class="btn btn-primary rounded" href="https://chuffed.org/project/um-palestine-legalfund" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 6.4rem; --bs-btn-font-size: 1.0rem; margin-top: 1rem;">Donate To Our Legal Fund</a>
-          </div>
+            <div class="d-grid gap-4 mx-auto">
+                <a class="btn btn-success rounded" href="https://www.metrotimes.com/news/u-m-escalates-punishment-of-pro-palestinian-activists-after-failed-prosecution-40039161" target="_blank" rel="nofollow noopener noreferrer" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-font-size: 1rem; margin-top: 1rem;">Learn More About the Charges Here</a>
+                <a class="btn btn-primary rounded" href="https://actionnetwork.org/letters/tell-the-university-of-michigan-drop-student-disciplinary-charges" target="_blank" rel="nofollow noopener noreferrer" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-font-size: 1rem;">Send an Email to Drop the Charges</a>
+                <a class="btn btn-primary rounded" href="https://chuffed.org/project/um-palestine-legalfund" target="_blank" rel="nofollow noopener noreferrer" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-font-size: 1rem;">Donate To Our Legal Fund</a>
+            </div>
         </div>
+
+
         <div class="tab-pane fade" id="tweets-tab-pane" role="tabpanel" aria-labelledby="tweets-tab" tabindex="0">
           <p>
             <strong
@@ -136,7 +142,6 @@ layout: default
               </div>
             {% endfor %}
             </div>
-
             <div
               class="d-flex justify-content-between align-items-center mb-3"
             >
@@ -157,6 +162,31 @@ layout: default
               >
                 Next ›
               </button>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+
+        <div class="tab-pane fade" id="supporters-tab-pane" role="tabpanel" aria-labelledby="supporters-tab" tabindex="0">
+          <p>
+            <strong
+              >See the many organizations that condemn the actions of OSCR and stand with the pro-Palestine activists who are being wrongfully sanctioned.</strong
+            >
+          </p>
+
+          {% for org in site.data.SolidStatements.SolidStatements %}
+          <div class="d-grid gap-2 mx-auto" style="margin-bottom: 1rem;">
+            <button class="d-flex justify-content-between align-items-center btn btn-primary btn-lg" data-bs-toggle="collapse" href="#{{ org.id }}" role="button" aria-expanded="false" aria-controls="{{ org.id }}">
+              {{ org.name }} <span class="fs-2">▼</span>
+            </button>
+          </div>
+          <div class="collapse multi-collapse" id="{{ org.id }}" style="margin-bottom: 1rem;">
+            <div class="d-inline-flex p-2">
+              <a class="btn btn-success rounded" href="{{ org.website}}" target="_blank" rel="nofollow noopener noreferrer" role="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: .75rem;">Visit This Org</a>
+            </div>
+            <div class="card card-body">
+              {{ org.content }}
             </div>
           </div>
           {% endfor %}

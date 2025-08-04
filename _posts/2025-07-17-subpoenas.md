@@ -83,6 +83,6 @@ We unequivocally condemn the UM Regents’ and Nessel’s attack on the
 popular struggle for Palestinian liberation, and remain unwavering in our 
 demands regardless of repression and intimidation. Divest now!
 
-<div class="d-grid gap-2">
-  <a class="btn btn-primary rounded" href="https://chuffed.org/project/um-palestine-legalfund" role="button" style="--bs-btn-padding-y: 1.5rem; --bs-btn-padding-x: 6.4rem; --bs-btn-font-size: 1.0rem; margin-top: 1rem;">Donate To Our Legal Fund</a>
+<div class="d-grid gap-2 mx-auto">
+  <a class="btn btn-primary rounded" href="https://chuffed.org/project/um-palestine-legalfund" role="button" style="--bs-btn-padding-y: 1.5rem;--bs-btn-font-size: 1.0rem; margin-top: 1rem;">Donate To Our Legal Fund</a>
 </div>
