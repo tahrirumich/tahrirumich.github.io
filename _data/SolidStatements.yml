@@ -491,6 +491,22 @@ SolidStatements:
         israel’s genocidal regime and suppress the voices of their community. USPCN stands with the pro-Palestine activists undergoing the unjust charges perpetrated by Golich, 
         and condemns the University of Michigan and their OSCR department as they continue work in favor of profit over humanity, going as far as ruining the futures of their own 
         students who speak out for peace and the liberation of Palestine.</p>'
+  
+  - name: Detroit Justice Center
+    id: DJC
+    website: https://detroitjustice.org/
+    content:
+        '<h3><b>RESTORATIVE JUSTICE CONCERNS AT THE UNIVERSITY OF MICHIGAN</b></h3>
+        
+        <p>Detroit Justice Center Stands in solidarity with Univeristy of Michigan students and alumni who are being targeted by the Office of Student Conflict Resolution (OSCR)
+        related to their involvement in the Palestinian Liberation movement. We call for the OSCR charges to be dropped, and for more investments in restorative practices and
+        not punitive responses to students’ exercising their First Amendment rights.
+        
+        <br><br><a href="https://bit.ly/RJletterUM" target="_blank" rel="nofollow noopener noreferrer"><u>Read our letter</u></a> and if you support investing in restorative practices and divesting from punitive carceral responses to student activism, sign on to our letter
+        to show your solidarity.
+        
+        <br><br>We must not mirror the violence of these oppressive systems and must speak truth to those who are in power to treat students, staff and faculty at U of M and in
+        all of our communities with humanity, dignity and respect.</p>'
 
   - name: No Detention Centers in Michigan
     id: NDCM
