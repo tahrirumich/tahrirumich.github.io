@@ -329,6 +329,56 @@ SolidStatements:
         <br><br>In Solidarity,
         <br>Solidaridad Organizada para la Liberación (SOL)
         </p>'
+  
+  - name: Arab Student Association
+    id: ASA
+    website: https://maizepages.umich.edu/organization/arabstudentassociation
+    content:
+        'To our U-M community,
+
+        <p>The date again reads October 7th, but for those of us who still feel, time no longer works as it once did; 
+        it now only serves to remind us how <b><i>easily</i></b> the world looks away. The days that pass have become markers, 
+        measuring how long the people of Palestine have borne the weight of this world’s injustice.<br><br>
+        
+        Every single day for the past two years, we have carried that heaviness. We feel it as we walk through the 
+        halls of our university, <b>knowing there are no universities left standing in Gaza.</b> We feel it when we return 
+        home to our families, knowing that in Gaza, families cling to one another beneath shattered ceilings. We feel it as 
+        we sit down to eat, while in Gaza, food and aid are blocked, and <b>starvation is used as a weapon.</b><br><br>
+        
+        For <b>730 days,</b> Gaza has endured relentless and escalating violence. This violence roots far beyond two years, tracing 
+        back to 1948. <b>Seventy-seven years of occupation, seventy-seven years of objective to destroy, erase, and silence us 
+        persists.</b> Our brothers and sisters lost. Our homes flattened. Our dreams buried under rubble, all while the world 
+        averts its gaze and tries to deny this genocide, disguising its racism by painting us as the aggressors, as 
+        terrorists, as if our very existence was a crime.<br><br>
+        
+        Our so-called world leaders conspire to bulldoze homes and build resorts over the ruins. <b>They distract, distort, and 
+        censor-moderating the media whilst silencing the voices of Palestine.</b> They bomb aid convoys and block food from reaching the 
+        starving. Even what little aid enters is tainted by cruelty, turned into another weapon against a people already fighting to 
+        survive.<br><br>
+        
+        <b>The University speaks of inclusion, yet it bites its tongue when our identity, our people, and our beliefs are under attack.</b><br><br>
+        
+        On our own campus, <b>silence is the policy.</b> The University parades and idolizes the student activists of the past in an attempt to 
+        conceal that they themselves are the oppressors of our voices. And now, history repeats itself as our activists and our most powerful 
+        voices are systematically shut down.<br><br>
+        
+        All of this unfolds right before our eyes at an institution that not only invests millions into Israel, but an institution that 
+        shamelessly <b>weaponizes</b> systems meant to protect its students. The surveillance, the violence from DPSS, UMPD, and AAPD, and the 
+        manipulation of OSCR to reprimand students for <b>legal and peaceful</b> protests are all actions we wholeheartedly condemn.<br><br>
+        
+        We call, we demand, we protest, only to be met with force: pepper spray in our faces, investigations of our names, excessive discipline 
+        for daring to speak the truth. With each "violation," they try to teach us that our pain is not allowed, that our resistance is criminal.<br><br>
+        
+        We carry the weight of our martyrs in our bones. This is not a monument to sorrow, but rather a call to action. We carry not only our 
+        pain, but the soul of our people. We resist with our voices, our bodies, our solidarity. We defy the silence demanded of us. We will not be 
+        erased. We will stand together unwaveringly. Our struggle for justice is bound to every struggle for liberation.<br><br>
+        
+        We demand that U-M stop funding this violence, stop policing dissent, and start listening to those it tirelessly regulates. We demand justice, 
+        and we demand it now. We stand with Palestine. We stand with every oppressed people. We rise, and we resist.<br><br><b>
+        
+        السكوت على الظلم ظلم
+        </b><br><br>In Solidarity,<br>
+        The Arab Student Association at The University of Michigan</p>'
 
   - name: Shalom Community Church
     id: SCC
@@ -491,6 +541,22 @@ SolidStatements:
         israel’s genocidal regime and suppress the voices of their community. USPCN stands with the pro-Palestine activists undergoing the unjust charges perpetrated by Golich, 
         and condemns the University of Michigan and their OSCR department as they continue work in favor of profit over humanity, going as far as ruining the futures of their own 
         students who speak out for peace and the liberation of Palestine.</p>'
+  
+  - name: Detroit Justice Center
+    id: DJC
+    website: https://detroitjustice.org/
+    content:
+        '<h3><b>RESTORATIVE JUSTICE CONCERNS AT THE UNIVERSITY OF MICHIGAN</b></h3>
+        
+        <p>Detroit Justice Center Stands in solidarity with Univeristy of Michigan students and alumni who are being targeted by the Office of Student Conflict Resolution (OSCR)
+        related to their involvement in the Palestinian Liberation movement. We call for the OSCR charges to be dropped, and for more investments in restorative practices and
+        not punitive responses to students’ exercising their First Amendment rights.
+        
+        <br><br><a href="https://bit.ly/RJletterUM" target="_blank" rel="nofollow noopener noreferrer"><u>Read our letter</u></a> and if you support investing in restorative practices and divesting from punitive carceral responses to student activism, sign on to our letter
+        to show your solidarity.
+        
+        <br><br>We must not mirror the violence of these oppressive systems and must speak truth to those who are in power to treat students, staff and faculty at U of M and in
+        all of our communities with humanity, dignity and respect.</p>'
 
   - name: No Detention Centers in Michigan
     id: NDCM

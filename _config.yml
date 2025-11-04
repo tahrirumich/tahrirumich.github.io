@@ -22,12 +22,12 @@ title: TAHRIR Coalition at the University of Michigan
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Homepage for the TAHRIR Coalition, which fights for Palestinian
-  liberation at the University of Michigan (umich). It includes organizations
+  liberation at the University of Michigan. It includes organizations
   like Students Allied for Freedom and Equality, the U-M chapter of 
   Students for Justice in Palestine, and Jewish Voice for Peace.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tahrirumich.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TAHRIRumich
+url: "https://tahrirxmich.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: TAHRIRxmich
 permalink: "/:categories/:title"
 future: true
 collections:
