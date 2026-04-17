@@ -13,7 +13,7 @@ layout: default
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <div class="col-md-10 col-lg-8 col-xl-7">
         <div class="post-heading">
-          <h1>Timeline of Campus Repression</h1>
+          <h1>The Regents Regime of Repression</h1>
         </div>
       </div>
     </div>
@@ -29,25 +29,22 @@ layout: default
         >
       </p>
 
-      {% for org in site.data.SolidStatements.SolidStatements %}
-      <p>
+      {% for node in site.data.TimelineNodes.TimelineNodes %}
+      <p style="padding-bottom:2vw;">
         <div style="margin-bottom: -6vw; margin-right:10vw">
-          <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw;" data-bs-toggle="collapse" href="#{{ org.id }}" role="button" aria-expanded="false" aria-controls="{{ org.id }}">
-              <img class="translate-middle-x" src="/assets/img/timeline_header.jpg" style="width:auto; height:40vw;">
+          <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
+              <img class="translate-middle-x" src="{{node.icon}}" style="width:auto; height:20vw;">
           </button>
         </div>
         <div class="border border-danger border-5" style="margin-top: 3dvw;">
-          <strong style="font-size:5vw; color:firebrick; margin-left:4vw">NOVEMBER 17, 2024</strong>
-          <button class="d-flex justify-content-between align-items-center btn btn-primary" style="background-color:firebrick; width:105%; --bs-btn-font-size: 4vw;" data-bs-toggle="collapse" href="#{{ org.id }}" role="button" aria-expanded="false" aria-controls="{{ org.id }}">
-            {{ org.name }} <span class="fs-2" style="padding-left: 2vw; ">▼</span>
+          <strong style="font-size:5vw; color:firebrick; margin-left:4vw">{{node.date}}</strong>
+          <button class="d-flex justify-content-between align-items-center btn btn-primary" style="background-color:firebrick; width:105%; height:80%; --bs-btn-font-size: 4vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
+            {{ node.name }} <span class="fs-2" style="padding-left: 2vw; ">▼</span>
           </button>
         </div>
-        <div class="collapse multi-collapse" id="{{ org.id }}" style="margin-bottom: 1rem;">
-          <div class="d-inline-flex p-2">
-            <a class="btn btn-success rounded" href="{{ org.website}}" target="_blank" rel="nofollow noopener noreferrer" role="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: .75rem;">Visit This Org</a>
-          </div>
+        <div class="collapse multi-collapse" id="{{ node.id }}" style="margin-bottom: 1rem; padding-top:5vw">
           <div class="card card-body">
-            {{ org.content }}
+            {{ node.content }}
           </div>
         </div>
       </p>
