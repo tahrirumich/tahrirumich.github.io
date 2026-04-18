@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="
+    background-image: url('/assets/img/timeline_header.jpg');
+  "
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="post-heading">
+          <h1>The Regents Regime of Repression</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article class="mb-4">
+  <div class="container px-4 justify-content-center">
+    <div class="row gx-4 justify-content-center">
+      <p>
+        <b>From the beginning of genocide in Palestine University of Michigan,</b> the Board of Regents of the University of Michigan 
+        wielded power to disenfranchise and repress the pro-Palestine movement. The regents refused to meet with advocates of 
+        divestment, cancelled campus-wide divestment votes, and repeatedly summoned university police (UMPD) to assault and 
+        silence protestors. Since 2023, the violent repression of UMPD has resulted in physical and psychological injuries, 
+        criminal charges, student disciplinary charges, and retribution against staff. Shamefully, the regents, Attorney General 
+        Dana Nessel, the Office of Student Life, the Office of Student Conflict Resolution repeatedly lie, asserting pro-Palestine 
+        protesters were "violent" and "threatening." <br><br>
+        But evidence demonstrates the University of Michigan Police Department, 
+        exclusively, turned to violence. Officers initiated physical contact with protesters, used pretextual reasons to make 
+        arrests, and consistently escalated conflict. Police broke protesters' arms, slammed people to the ground while cuffed, 
+        caused concussions, sprayed "Deep Freeze" at point-blank range, snatched megaphones and signs out of protesters hands, 
+        tackled protesters, pushed barricades and bicycles into protesters, choked protesters, and more.<br><br>
+        Yet it was the victims of the police violence and brutality who were criminally charged under Eli Savit and AG Dana 
+        Nessel. Then, the Office of Student Conflict Resolution (OSCR) and the Office of Student Accountability (OSA) charged
+        the students with disciplinary violations. The false allegations are part of a repertoire of repressive tactics by which 
+        the University breaks its own rules and violates its own values. 
+      </p>
+
+      {% for node in site.data.TimelineNodes.TimelineNodes %}
+      <p style="padding-bottom:4vw;">
+        <div style="margin-bottom: -6vw; margin-right:10vw">
+          <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
+              <img class="translate-middle-x" src="{{node.icon}}" style="width:auto; height:20vw; margin-left:2vw">
+          </button>
+        </div>
+        <div class="border border-danger border-5" style="margin-top: 3dvw;">
+          <strong style="font-size:5vw; color:firebrick; margin-left:4vw">{{node.date}}</strong>
+          <button class="d-flex justify-content-between align-items-center btn btn-primary" style="background-color:firebrick; width:105%; height:80%; --bs-btn-font-size: 4vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
+            {{ node.name }} <span class="fs-2" style="padding-left: 2vw; ">▼</span>
+          </button>
+        </div>
+        <div class="collapse multi-collapse" id="{{ node.id }}" style="margin-bottom: 1rem; padding-top:5vw">
+          <div class="card card-body">
+            {{ node.content }}
+          </div>
+        </div>
+      </p>
+      {% endfor %}
+    </div>
+  </div>
+</article>
