@@ -45,14 +45,14 @@ layout: default
       {% for node in site.data.TimelineNodes.TimelineNodes %}
       <p style="padding-bottom:4vw;">
         <div style="margin-bottom: -6vw; margin-right:10vw">
-          <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
-              <img class="translate-middle-x" src="{{node.icon}}" style="width:auto; height:20vw; margin-left:2vw">
+          <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw; min-width:100px; min-height:100px;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
+              <img class="translate-middle-x" src="{{node.icon}}" style="width:auto; height:20vw; margin-left:2vw; min-height:100px">
           </button>
         </div>
         <div class="border border-danger border-5" style="margin-top: 3dvw;">
           <strong style="font-size:5vw; color:firebrick; margin-left:4vw">{{node.date}}</strong>
           <button class="d-flex justify-content-between align-items-center btn btn-primary" style="background-color:firebrick; width:105%; height:80%; --bs-btn-font-size: 4vw;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
-            {{ node.name }} <span class="fs-2" style="padding-left: 2vw; ">▼</span>
+            {{ node.name }} <span style="font-size:6vw; padding-left:2vw; ">▼</span>
           </button>
         </div>
         <div class="collapse multi-collapse" id="{{ node.id }}" style="margin-bottom: 1rem; padding-top:5vw">
