@@ -44,7 +44,7 @@ layout: default
 
       {% for node in site.data.TimelineNodes.TimelineNodes %}
       <p style="padding-bottom:4vw;">
-        <div style="margin-bottom: -6vw; margin-right:20vw">
+        <div style="margin-bottom: -6vw; margin-right:10vw">
           <button class="d-flex align-items-center btn btn-primary btn-lg rounded-circle border border-danger border-5" style = "overflow: hidden; width:15vw; height:15vw; min-width:100px; min-height:100px;" data-bs-toggle="collapse" href="#{{ node.id }}" role="button" aria-expanded="false" aria-controls="{{ node.id }}">
               <img class="translate-middle-x" src="{{node.icon}}" style="width:auto; height:20vw; margin-left:2vw; min-height:100px">
           </button>
