@@ -90,7 +90,7 @@ assault on higher education. We call on all those who stand
 for justice to speak out against state repression of
 solidarity with Palestine. Divest now!
 
-Press inquiries: tahrircoalition@gmail.com
+Press inquiries: tahrircoalition@proton.me
 
 DONATE TO THE LEGAL DEFENSE FUND:
 [bit.ly/umlegalfund](https://bit.ly/umlegalfund)
